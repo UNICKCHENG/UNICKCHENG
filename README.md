@@ -5,7 +5,7 @@
 
 I'm using [GitHub Packages](https://github.com/UNICKCHENG?tab=packages) to publish some open source packages 📦, like docker images, maven packages.
 
-For maven packages, if you don't find them in the [Maven central repository](https://mvnrepository.com/artifact/io.github.unickcheng), you can use my open GitHub repository mirror. Simply, you need to add the following repository information to successfully download the appropriate dependencies.
+For maven packages, if you don't find them in the [Maven central repository](https://mvnrepository.com/artifact/io.github.unickcheng), you can use my open GitHub repository mirror. Simply, you need to add the following repository information to successfully download the appropriate dependencies. If you are a [Gradle](https://gradle.org/) user, the Maven repository is also supported. Unfortunately, the current project documentation is still written around [Maven](https://maven.apache.org/).
 
 ```xml
 <!-- Add the GitHub repository address -->
